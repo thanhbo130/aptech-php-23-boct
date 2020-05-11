@@ -1,0 +1,30 @@
+.text-align{
+    text-align: center;
+}
+.whitetext{
+    color: white;
+}
+.background{
+    background-color: thistle;
+}
+.div-cover{
+    display: flex;
+}
+.div-1{
+    width: 25%;
+    height: 300px;
+    background-color: goldenrod;
+}
+.div-2{
+    width: 75%;
+    height: 300px;
+    background-color: greenyellow;
+
+}
+.unsign{
+    list-style-type: none;
+}
+.clear-distance{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
