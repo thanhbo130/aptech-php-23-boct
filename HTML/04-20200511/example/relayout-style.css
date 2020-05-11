@@ -1,0 +1,83 @@
+.container{
+    max-width: 1200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px;
+}
+.bg-cover1{
+    background-color: goldenrod;
+}
+.bg-cover2{
+    background-color: brown;
+}
+.cell-1{
+    width: 66.6%;
+    height: 30px;
+    background-color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cell-2{
+    width: 33.4%;
+    height: 30px;
+    background-color: lightgreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cell-3{
+    width: 50%;
+    margin: 0px 20px 0px 20px;
+
+
+}
+.cell-4{
+    width: 50%;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.cell-3-1{
+    margin: 20px 10px 0px 10px;
+    height: 30px;
+    background-color: blue;
+
+}
+.cell-3-2{
+    margin: 30px 10px 0px 10px;
+    height: 60px;
+    background-color: blue;
+}
+.cell-4-1{
+    width: 50%;
+    margin: 0px 10px 0px 10px;
+    height: 140px;
+    background-color: blue;
+}
+.cell-4-2{
+    width: 50%;
+    margin: 0px 10px 0px 10px;
+    height: 140px;
+    background-color: blue;
+}
+.cell-5{
+    min-height:4px ;
+    max-width: 1200px;
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+}
+.cell-5-1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 33.33%;
+}
+.border{
+    border: 1px solid lightgrey;
+}
