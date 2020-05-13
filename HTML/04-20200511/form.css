@@ -12,7 +12,7 @@ body{
 }
 .box-form{
     width: 30%;
-    height: 900px;
+    height: auto;
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
@@ -44,15 +44,28 @@ body{
 }
 input[type =text]{
     width: 100%;
-    /* border-style: hidden; */
-    border-radius: 1px;
+    border-style: hidden;
+
+
+}
+input[type = password]{
+    width: 100%;
+    border-style: hidden;
+
 
 }
 .sgu-bt{
     width: 150px;
     height: 40px;
     border-radius: 20px;
-    background-color: purple;
+    color: white;
+    background: linear-gradient(to top left, #33ccff -200%, #cc0099 100%)
+    
+}
+.image{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
