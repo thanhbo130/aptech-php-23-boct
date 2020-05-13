@@ -1,0 +1,58 @@
+.cover{
+    display: flex;
+    margin: ;
+}
+body{
+    margin: 0px;
+}
+.box-image{
+    width: 70%;
+    height: 900px;
+    background-color: burlywood;
+}
+.box-form{
+    width: 30%;
+    height: 900px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.h-1{
+    color: black;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.h-2{
+    color: gray;
+    font-size: 25px;
+}
+.mt{
+    margin-top: 30px;
+}
+.ml{
+    margin-left: 40px;
+}
+.ml-1{
+    margin-left: 100px;
+
+}
+.mr{
+    margin-right: 40px;
+}
+.hr{
+    margin-bottom: 40px;
+}
+input[type =text]{
+    width: 100%;
+    /* border-style: hidden; */
+    border-radius: 1px;
+
+}
+.sgu-bt{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: purple;
+}
+
+
