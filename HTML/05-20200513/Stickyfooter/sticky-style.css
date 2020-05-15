@@ -1,0 +1,15 @@
+.ml-p-33{
+    margin-left: 33%;
+}
+.mr-p-33{
+    margin-right:33%;
+}
+.footer1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
