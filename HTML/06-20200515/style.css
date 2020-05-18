@@ -1,0 +1,20 @@
+.Input__Caption--text-color {
+  color: green;
+}
+
+.Content__Sign-Up-Btn--green-them {
+  background-color: green;
+}
+
+.Content__Sign-Up-Btn--text-white {
+  color: white;
+}
+
+.Content__Sign-Up-Btn--font-size {
+  font-size: 100px;
+}
+
+.Content__Sign-out-Btn--dark-theme {
+  background-color: darkslateblue;
+}
+/*# sourceMappingURL=style.css.map */

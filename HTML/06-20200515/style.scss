@@ -1,0 +1,27 @@
+.Input{
+    &__Caption{
+        &--text-color{
+            color: green;
+        }
+    }
+
+}
+.Content{
+ &__Sign-Up-Btn{
+     &--green-them{
+         background-color: green;
+     }
+     &--text-white{
+         color: white;
+     }
+     &--font-size{
+         font-size: 100px;
+     }
+ }
+&__Sign-out-Btn{
+    &--dark-theme{
+        background-color: darkslateblue;
+    }
+}
+
+}

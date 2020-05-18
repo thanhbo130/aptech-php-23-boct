@@ -1,0 +1,30 @@
+.logo{
+    /* text-align: center; */
+    font-size: 75px;
+    font-weight: 500;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #7b01d3;
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-sizing: border-box; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 2rem;
+}
+body{
+    background-color: whitesmoke;
+}
+.bg-lightgray{
+    background-color: lightgray;
+}
