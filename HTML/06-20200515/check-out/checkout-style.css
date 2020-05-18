@@ -16,7 +16,7 @@
     justify-content: center;
 
 }
-p{
+.p_size-15{
     font-size: 1.5rem;
 }
 h1{
@@ -27,4 +27,13 @@ body{
 }
 .bg-lightgray{
     background-color: lightgray;
+}
+.btn-fontsize{
+    font-size: 1.5rem;
+}
+a{
+    font-size: 1.2rem;
+}
+.font-size-12{
+    font-size: 1.2rem;
 }

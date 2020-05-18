@@ -16,7 +16,7 @@
          <div class="row mb-5">
              <div class="col-12 text-center">
                  <h1>Checkout form</h1>
-                <p class="font-weight-light pl-4 pr-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be
+                <p class="font-weight-light pl-4 pr-4 p_size-15">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be
                      triggered by attempting to submit the form without completing it.
                 </p>
              </div>
@@ -109,9 +109,34 @@
                             <label for="creditcard-num">Credit card number</label>
                             <input type="text" name="creditcard" id="creditcard-num" class="form-control  ">
                         </div>
+                    </div>  
+                     <div class="row mt-4">
+                         <div class=" col-md-3 form-group">
+                             <label for="expiration">Expiration</label>
+                             <input type="text" name="Expiration" id="expiration" class=" form-control" required>
+                         </div>
+                         <div class=" col-md-3 form-group">
+                             <label for="cvv">CVV</label>
+                             <input type="text" name="cvv" id="cvv" class=" form-control " required>
+                         </div>
                     </div>
-                <div class="col-4"></div>
+                    <hr mt-4>
+                    <button type="submit" class=" btn btn-primary mt-3 w-100 btn-fontsize font-weight-normal">Continute to checkout</button>
+
+                 </div>
+                 <div class="col-4"></div>
+             </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center text-secondary text-decoration-none font-size-12">
+                    &#169 2017-2019 Company Name
+                    <br>
+                    <a href="" class=" mr-2 ">Privacy</a>
+                    <a href="" class="mr-2 ml-2">Terms</a>
+                    <a href="" class="ml-2">Support</a>
+                    <br><br><br>
+                </div>
             </div>
+
          </form>
 
      </div> 
