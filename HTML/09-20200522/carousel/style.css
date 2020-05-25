@@ -1,0 +1,11 @@
+.carousel-frame{
+    height: 556px;
+    background-color: gray;
+    
+}
+.linkaa{
+    text-decoration: none;
+}
+.linkaa:hover{
+    color: white;
+}

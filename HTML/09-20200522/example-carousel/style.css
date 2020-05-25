@@ -1,0 +1,27 @@
+.bg-image-1{
+    background-image: url("image-4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: auto; */
+    height: 800px;
+    width: 800px;
+    background-position: center;
+}
+.bg-image-2{
+    background-image: url("image-2.jpeg");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: cover;
+    height: 800px;
+    width: 800px;
+    background-position: center;
+}
+.bg-image-3{
+    background-image: url("image-3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: auto; */
+    height: 800px;
+    width: 800px;
+    background-position: center;
+}

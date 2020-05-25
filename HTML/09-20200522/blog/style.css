@@ -1,0 +1,30 @@
+.font-timenewroman{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font-size-25{
+    font-size: 1.5rem;
+}
+.boxsizing-border{
+    box-sizing: border-box;
+}
+.post-tiltle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.post-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.post-subhead{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.btn_bdradius-50{
+    border-radius: 25% / 50% ;
+}
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
