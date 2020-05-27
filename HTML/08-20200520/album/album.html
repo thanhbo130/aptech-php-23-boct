@@ -4,16 +4,37 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-    <div class=" container-fluid">
-        <div class="row bg-dark">
-            <div class="col-3">Icon1</div>
-            <div class="col-6"></div>
-            <div class="col-3">Icon2</div>
+    <nav class="bg-dark">
+        <div class=" container">
+            <div class="row pt-4 display-none" id="hide">
+                <div  class="col-8 text-white">
+                    <h2>About</h2>
+                    <p class=" text-whitesmoke">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                </div>
+                <div class="col-4 text-white">
+                    <h2>Contact</h2>
+                    <ul class=" list-unstyled ">
+                        <li><a href="" class=" text-white">Follow on Twitter </a></li>
+                        <li><a href=""class=" text-white">Like on Facebook</a></li>
+                        <li><a href=""class=" text-white">Email me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-between mb-0 align-items-center">
+                    
+                         <a href="" class="text-white navbar-brand"> <i class="fas fa-camera"></i> Allbum</a>
+                        <button onclick="hideContent();" class="btn text-white"><i class="fas fa-bars fa-2x"></i></button>   
+                        <script src="script.js"></script>
+                
+ 
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>    
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-6 mt-3">
