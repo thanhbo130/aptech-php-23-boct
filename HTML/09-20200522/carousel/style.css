@@ -8,3 +8,12 @@
     width: 150px;
     border-radius: 50%;
 }
+.image-frame{
+    height: 500px;
+    width: 100%;
+    background-color: lightseagreen;
+}
+.featurette-space{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}

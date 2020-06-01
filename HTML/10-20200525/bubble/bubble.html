@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <script>
         var countz;
-        countz=0;
-        function blindz(idimage)
-         {
-        countz = countz +1; 
-        console.log(countz % 2);
-       if ( countz % 2 ==0) {
-           document.getElementById(idimage).src='pic_bulbon.gif'
-            } 
-       else {
-        document.getElementById(idimage).src='pic_bulboff.gif'}
-       }
+        countz = 0;
+
+        function blindz(idimage) {
+            countz = countz + 1;
+            console.log(countz % 2);
+            if (countz % 2 == 0) {
+                document.getElementById(idimage).src = 'pic_bulbon.gif'
+            } else {
+                document.getElementById(idimage).src = 'pic_bulboff.gif'
+            }
+        }
     </script>
 </head>
+
 <body>
     <script src="script.js"></script>
     <button onclick="
@@ -31,7 +33,8 @@
         blindzz('anh') ">ON</button>
     <button onclick="blindz('anh');">Click me</button>
     <img id="anh" src="pic_bulboff.gif" alt="">
-    <button onclick=" document.getElementById('anh').src='pic_bulbon.gif'  ">OFF</button>
+    <button onclick=" document.getElementById('anh').src='pic_bulboff.gif'  ">OFF</button>
     <script src="script.js"></script>
 </body>
+
 </html>

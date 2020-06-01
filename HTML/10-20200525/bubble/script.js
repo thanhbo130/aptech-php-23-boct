@@ -1,11 +1,10 @@
-var count=0;
 function blindzz(id) {
-    count = count +1; 
-    console.log(count % 2);
-    if ( count % 2 == 0) {
-        document.getElementById(id).src='pic_bulbon.gif';
+    var elem = document.getElementById(id);
+    if (elem.src == 'http://127.0.0.1:5500/10-20200525/bubble/pic_bulbon.gif') {
+        elem.src = 'pic_bulboff.gif';
+        console.log(1);
     } else {
-        document.getElementById(id).src='pic_bulboff.gif';
+        elem.src = 'pic_bulbon.gif';
+        console.log(2);
+    }
 }
-}
-

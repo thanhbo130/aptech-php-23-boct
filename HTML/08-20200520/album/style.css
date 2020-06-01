@@ -1,9 +1,21 @@
-.h-50px{
-    height: 300px;
+.h-250px{
+    height: 250px;
 }
 .text-whitesmoke{
     color: whitesmoke;
 }
 .display-none{
     display: none;
+}
+.bg-lightgray{
+    background-color: whitesmoke;
+}
+.border-collapse{
+    margin-left: -1px;
+}
+.view-border{
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
+}
+.edit-border{
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
 }
