@@ -1,0 +1,82 @@
+.mx-3rem{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.py-5rem{
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.bgImage{
+    height:600px ;
+    background-image: url("bgSea.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+}
+.bgImage-sm{
+    height:400px ;
+    background-image: url("bgSea.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+}
+
+.fontsize-4rem{
+    font-size: 4rem;
+}
+@media( max-width:768px){
+    .fontsize-4rem{
+        font-size: 2rem;
+    }
+}
+.bgImagePhone{
+    height:600px ;
+    background-image: url("iphone.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+}
+.bgImageKid{
+    height:600px ;
+    background-image: url("kid.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+}
+.bgImageCode{
+    height:600px ;
+    background-image: url("code.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+}
+.px-25per{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
+.circleFrame{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: royalblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bgImagePerson1{
+    background-image: url("naruto.png");
+}
+.bgImagePerson2{
+    background-image: url("Luffy.jpg");
+}
+.bgImagePerson3{
+    background-image: url("Saitama.png");
+}

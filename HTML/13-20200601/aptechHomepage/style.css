@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    .d-md-none-m {
+      display: none !important;
+    }
+}
+.imageFrame{
+    height: 500px;
+    background-image: url("image1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.p15{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.insideBg1{
+    width: 600px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    }
+.insideBg2{
+    width: 600px;
+    background-color: yellow;
+    text-align: center;
+    color:white
+}
+.h-350px{
+    height: 350px;
+}
+.cardImageTop{
+    height: 300px;
+    /* background-image: url("html_css.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.bg-imageURL1{
+    background-image: url("html_css.jpg");
+}
+.bg-imageURL2{
+    background-image: url("java.png");
+}
+.bg-imageURL3{
+    background-image: url("php.png");
+}
+.bg-imageURL4{
+    background-image: url("backend.png");
+}
