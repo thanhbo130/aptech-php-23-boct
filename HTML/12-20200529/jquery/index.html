@@ -6,14 +6,16 @@
 </head>
 <body>
     <h1 id="h1">This is header</h1>
+    <h2 id="h2">day la h2</h2>
     <button id="btn" onclick="replace()">Replace</button>
     <script>
         function replace(){
             $("#h1").html("jquery");
         }
         $(document).ready(function(){
-            $("#h1").click(function(){
-                $(this).hide();
+            $("#btn").click(function(){
+                $(this).css({"color": "yellow", "font-size": "200%"});
+                $("#h2").css("color", "red");
             });
             $("#btn").click(function(){
                 $("#h1").show();
