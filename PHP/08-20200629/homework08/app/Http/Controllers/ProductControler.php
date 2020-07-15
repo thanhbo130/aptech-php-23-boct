@@ -10,3 +10,4 @@ class ProductControler extends Controller
         return view('product',['key1'=>$aaa]);
     }
 }
+
